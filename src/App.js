@@ -90,7 +90,7 @@ function App() {
                     <p>Previous Close: ${stockData.volume}</p>
                 </div>
             )}
-           {StockChart()}
+           {chartData&&StockChart()}
         </div>
     );
 }
